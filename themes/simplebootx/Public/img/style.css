@@ -1,0 +1,514 @@
+body {
+	background: url("bg.jpg") fixed no-repeat top rgb(255, 255, 255); margin: 0px; padding: 0px; text-align: center; color: rgb(80, 80, 80); font-size: 12px;
+}
+body > div {
+	text-align: center; margin-right: auto; margin-left: auto;
+}
+div {
+	margin: 0px; padding: 0px; border: 0px currentColor;
+}
+.right TD {
+	font-size:14px;
+}
+form {
+	margin: 0px; padding: 0px; border: 0px currentColor;
+}
+img {
+	margin: 0px; padding: 0px; border: 0px currentColor;
+}
+ul {
+	margin: 0px; padding: 0px; border: 0px currentColor;
+}
+ol {
+	margin: 0px; padding: 0px; border: 0px currentColor;
+}
+li {
+	margin: 0px; padding: 0px; border: 0px currentColor;
+}
+p {
+	margin: 0px; padding: 0px; border: 0px currentColor;
+}
+dl {
+	margin: 0px; padding: 0px; border: 0px currentColor;
+}
+dt {
+	margin: 0px; padding: 0px; border: 0px currentColor;
+}
+dd {
+	margin: 0px; padding: 0px; border: 0px currentColor;
+}
+h1 {
+	margin: 0px; padding: 0px; font-size: 12px; font-weight: normal;
+}
+h2 {
+	margin: 0px; padding: 0px; font-size: 12px; font-weight: normal;
+}
+h3 {
+	margin: 0px; padding: 0px; font-size: 12px; font-weight: normal;
+}
+h4 {
+	margin: 0px; padding: 0px; font-size: 12px; font-weight: normal;
+}
+h5 {
+	margin: 0px; padding: 0px; font-size: 12px; font-weight: normal;
+}
+h6 {
+	margin: 0px; padding: 0px; font-size: 12px; font-weight: normal;
+}
+ul {
+	list-style: none;
+}
+li {
+	list-style: none;
+}
+a {
+	color: rgb(80, 80, 80); text-decoration: none;
+}
+a:hover {
+	color: rgb(255, 102, 0); text-decoration: underline;
+}
+.left {
+	float: left;
+}
+.right {
+	float: right;
+}
+.area::after {
+	height: 0px; clear: both; display: block; visibility: hidden; content: ".";
+}
+.clear::after {
+	height: 0px; clear: both; display: block; visibility: hidden; content: ".";
+}
+.clear {
+	zoom: 1;
+}
+.area {
+	zoom: 1;
+}
+.fb {
+	font-weight: bold;
+}
+.yahei {
+	font-family: "Microsoft YaHei";
+}
+.area {
+	margin: 0px auto; width: 960px; height: auto; clear: both;
+}
+.top-box {
+	background: url("top_bg.gif"); height: 102px;
+}
+.top-box .area {
+	position: relative;
+}
+.top-box .logo {
+	left: 10px; top: 0px; height: 102px; text-align: left; position: absolute; _height: 70px;
+}
+.top-box .phone {
+	background: url("tel.png") no-repeat left; top: 30px; height: 56px; text-align: left; right: 30px; color: rgb(255, 255, 255); line-height: 28px; padding-left: 45px; font-size: 22px; position: absolute; _height: 56px;
+}
+.nav-box {
+	background: url("nav.png") no-repeat center; height: 57px;
+}
+.nav-box ul {
+	background: url("nav_bg1.jpg"); padding-right: 2px; float: left;
+}
+.nav-box li {
+	width: 117px; height: 57px; padding-left: 2px; float: left; position: relative; z-index: 80;
+}
+.nav-box .first {
+	
+}
+.nav-box li a {
+	width: 100%; height: 36px; color: rgb(255, 255, 255); padding-top: 22px; font-weight: bold; display: block;
+}
+.nav-box li a:hover {
+	background: rgb(249, 249, 249); color: rgb(80, 80, 80); text-decoration: none;
+}
+.nav-box li a.active {
+	background: rgb(249, 249, 249); color: rgb(80, 80, 80); text-decoration: none;
+}
+.nav-box li .menu {
+	border-width: 0px 1px 1px; border-style: none solid solid; border-color: currentColor rgb(204, 204, 204) rgb(204, 204, 204); left: 2px; top: 56px; width: 115px; display: none; position: absolute;
+}
+.nav-box li .menu a {
+	background: rgb(249, 249, 249); width: 115px; height: 24px; color: rgb(80, 80, 80); padding-top: 12px; border-top-color: rgb(204, 204, 204); border-top-width: 1px; border-top-style: dashed; display: block;
+}
+.nav-box li .menu a:hover {
+	background: rgb(6, 92, 172); color: rgb(255, 255, 255); text-decoration: none;
+}
+.focus-box {
+	padding-bottom: 1px; margin-bottom: 15px;
+}
+.slider {
+	width: 960px; height: 370px;
+}
+#slider {
+	width: 960px; height: 370px; overflow: hidden; position: relative; z-index: 60;
+}
+.slider-show {
+	width: 405px; height: 275px;
+}
+#slider-show {
+	width: 405px; height: 275px; overflow: hidden; position: relative; z-index: 60;
+}
+.slider-show img {
+	left: 0px; top: 0px; display: none; position: absolute;
+}
+.sloder img {
+	left: 0px; top: 0px; display: none; position: absolute;
+}
+.slider-show a.nivo-imageLink {
+	margin: 0px; padding: 0px; border: 0px currentColor; left: 0px; top: 0px; width: 100%; height: 100%; display: none; position: absolute; z-index: 60;
+}
+.slider a.nivo-imageLink {
+	margin: 0px; padding: 0px; border: 0px currentColor; left: 0px; top: 0px; width: 100%; height: 100%; display: none; position: absolute; z-index: 60;
+}
+.slider-show .nivo-slice {
+	height: 100%; display: block; position: absolute; z-index: 1;
+}
+.slider .nivo-slice {
+	height: 100%; display: block; position: absolute; z-index: 1;
+}
+.slider-show .nivo-caption {
+	background: rgb(0, 0, 0); left: 0px; width: 100%; bottom: 0px; color: rgb(255, 255, 255); position: absolute; z-index: 20; opacity: 0.8;
+}
+.slider .nivo-caption {
+	background: rgb(0, 0, 0); left: 0px; width: 100%; bottom: 0px; color: rgb(255, 255, 255); position: absolute; z-index: 20; opacity: 0.8;
+}
+.slider-show .nivo-controlNav {
+	display: none;
+}
+.slider .nivo-controlNav {
+	display: none;
+}
+.wrap-slider {
+	border-top-color: rgb(140, 180, 207); border-top-width: 1px; border-top-style: solid;
+}
+.paging {
+	background: rgb(0, 0, 0); height: 400px; overflow: hidden; filter: alpha(opacity=50); position: absolute; opacity: 0.5; -moz-opacity: 0.5; -khtml-opacity: 0.5;
+}
+.wtit .info {
+	float: left;
+}
+.wtit .tit {
+	float: left;
+}
+.wtit .info {
+	padding: 35px 0px 0px 20px; color: rgb(152, 152, 152);
+}
+.wtit .info span {
+	margin: 0px 8px;
+}
+.main-box {
+	margin-bottom: 15px;
+}
+.main-box .left {
+	width: 250px; margin-right: 10px;
+}
+.main-box .center {
+	width: 380px; float: left;
+}
+.main-box .right {
+	width: 310px;
+}
+.main-sub-box .left {
+	width: 210px;
+}
+.main-sub-box .right {
+	width: 740px;
+}
+.title-box {
+	background: url("zhu_tietl.gif") repeat-x; height: 38px; text-align: left; border-right-color: rgb(221, 221, 221); border-right-width: 1px; border-right-style: solid;
+}
+.title-box h2 {
+	background: url("fenl.gif") no-repeat left; height: 38px; color: rgb(0, 0, 0); line-height: 38px; padding-left: 30px; font-family: "Microsoft YaHei"; font-size: 14px;
+}
+.title-box span {
+	margin-top: 10px; margin-right: 5px; float: right;
+}
+.contact-box p {
+	padding: 10px; text-align: left; line-height: 22px;
+}
+.contact-box p span {
+	font-size: 16px;
+}
+.contact-box p strong {
+	margin-bottom: 5px; display: block;
+}
+.company-box p {
+	padding: 10px; text-align: left; line-height: 24px;
+}
+.news-box ul {
+	padding: 10px; text-align: left; line-height: 29px;
+}
+.news-box li {
+	background: url("ico.gif") no-repeat 0px 9px; padding-left: 14px;
+}
+.news-box li span {
+	color: rgb(153, 153, 153); font-family: arial; float: right;
+}
+.news-box .box {
+	background: url("line.gif") repeat-x bottom; margin: 0px auto; padding: 10px;
+}
+.news-box .box h3 {
+	height: 30px; text-align: left; padding-top: 12px;
+}
+.news-box .box h3 span {
+	font-family: "Microsoft YaHei"; font-size: 14px; font-weight: bold; float: left;
+}
+.news-box .box h3 strong {
+	font-weight: normal; margin-top: 3px; float: right;
+}
+.news-box .box p {
+	text-align: left; line-height: 24px;
+}
+.news-box .box p a {
+	color: rgb(255, 102, 0);
+}
+.news-box h1 {
+	padding: 15px 0px; color: rgb(51, 51, 51); font-family: "Microsoft YaHei"; font-size: 21px;
+}
+.news-box .info {
+	border: 1px solid rgb(232, 232, 232); height: 20px; text-align: center; padding-top: 8px; background-color: rgb(247, 247, 247);
+}
+.img-box {
+	margin-bottom: 20px;
+}
+.img-box .title-box {
+	margin-bottom: 20px;
+}
+.img-box .title-box h2 {
+	font-size: 16px;
+}
+.img-box .title-box span a {
+	margin-right: 12px;
+}
+.imglist-box div {
+	width: 222px; height: 183px; float: left;
+}
+.imglist-box div img {
+	margin: 0px auto 12px; padding: 2px; border: 1px solid rgb(235, 235, 235); width: 180px; height: 145px; display: block;
+}
+.imglist-box div img:hover {
+	border: 1px solid rgb(255, 102, 0);
+}
+.imglist-box div a:hover {
+	text-decoration: none;
+}
+.imglist-box div a:hover img {
+	border: 1px solid rgb(255, 102, 0);
+}
+.imglist-box li {
+	width: 222px; height: 185px; float: left; margin:0px 10px;
+}
+.imglist-box li img {
+	margin: 0px auto 12px; padding: 2px; border: 1px solid rgb(235, 235, 235); width: 192px; height: 145px; display: block;
+}
+.imglist-box li img:hover {
+	border: 1px solid rgb(255, 102, 0);
+}
+.imglist-box li a:hover {
+	text-decoration: none;
+}
+.imglist-box li a:hover img {
+	border: 1px solid rgb(255, 102, 0);
+}
+
+.imglist-boxan li {
+	width: 220px; height:410px; float: left; margin:0px 18px;
+}
+.imglist-boxan li img {
+	margin: 0px auto 12px; padding: 2px; border: 1px solid rgb(235, 235, 235); width: 215px; height: 400px; display: block;
+}
+.imglist-boxan li img:hover {
+	border: 1px solid rgb(255, 102, 0);
+}
+.imglist-boxan li a:hover {
+	text-decoration: none;
+}
+.imglist-boxan li a:hover img {
+	border: 1px solid rgb(255, 102, 0);
+}
+
+
+
+
+.foot-box {
+	background: url("bottom.gif") repeat-x; height: 146px; color: rgb(255, 255, 255);
+}
+.foot-box p {
+	line-height: 30px; padding-top: 30px;
+}
+.foot-box p a {
+	margin: 0px 15px; color: rgb(255, 255, 255);
+}
+
+.cpquerytitle {
+	padding-top:10px;
+}
+.cpquerytitle a {
+	font-size:14px;
+}
+
+
+
+
+.product-list-box {
+	margin-bottom: 20px;
+}
+.main-sub-box .title-box h2 {
+	font-size: 16px;
+}
+.product-list-box h3 {
+	background: url("ico1.gif") no-repeat 0px 10px; margin: 0px auto; padding: 6px 0px 0px 27px; width: 160px; height: 29px; text-align: left; color: rgb(105, 105, 105); font-family: "Microsoft YaHei"; font-size: 14px; border-bottom-color: rgb(235, 235, 235); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.product-list-box h3 a:hover {
+	color: rgb(255, 102, 0); text-decoration: none;
+}
+.product-list-box .item-box {
+	margin: 0px auto; width: 187px; border-bottom-color: rgb(235, 235, 235); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.product-list-box h4 {
+	padding: 5px 0px 0px 40px; text-align: left; line-height: 22px;
+}
+.product-list-box ul {
+	padding: 5px 0px 10px 60px; text-align: left; line-height: 22px;
+}
+.product-list-box h3 a {
+	display: block;
+}
+.product-list-box h4 a {
+	display: block;
+}
+.page-box {
+	border: 1px solid rgb(221, 221, 221); text-align: center; color: rgb(51, 51, 51); font-size: 14px; font-weight: bold;
+}
+.page-box span {
+	font-weight: normal; display: none;
+}
+.page-box a {
+	background: rgb(242, 242, 242); width: 100%; height: 27px; padding-top: 13px; display: block;
+}
+.page-box a:hover {
+	background: rgb(255, 255, 255); text-decoration: none;
+}
+.hot-box .title-box {
+	margin: 0px auto 10px; width: 98%;
+}
+.hot-box .imglist-box {
+	margin: 0px auto; width: 736px;
+}
+.hot-box .imglist-box div {
+	width: 224px; float: left;
+}
+.main-sub-box .product-box .title-box {
+	margin-bottom: 10px;
+}
+.main-sub-box .product-box .imglist-box {
+	margin: 0px auto; width: 736px;
+}
+.main-sub-box .product-box .imglist-box div {
+	width: 224px; height: 168px; float: left;
+}
+.main-sub-box .company-box p {
+	font-size: 14px;
+}
+.say-box {
+	background: rgb(245, 245, 245); padding: 15px 0px; margin-bottom: 20px;
+}
+.say-box p {
+	padding: 0px 15px; text-align: left; color: rgb(80, 80, 80); line-height: 32px; font-family: "Microsoft YaHei"; font-size: 26px;
+}
+.item-sub-box {
+	background: rgb(245, 245, 245); padding: 10px 10px 7px; text-align: left; line-height: 24px; margin-top: -10px; margin-bottom: 10px; border-bottom-color: rgb(212, 212, 212); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.article-box {
+	padding: 15px; text-align: left; color: rgb(51, 51, 51); line-height: 28px; font-size: 14px; margin-bottom: 20px;
+}
+.fy-box span {
+	padding: 0px 15px; text-align: left; line-height: 25px;
+}
+.fy-box a {
+	color: rgb(51, 51, 51);
+}
+.fy-box .l {
+	width: 330px; float: left;
+}
+.fy-box .r {
+	width: 330px; text-align: right; float: right;
+}
+.map {
+	border: 2px solid rgb(204, 204, 204);
+}
+.class-list {
+	margin: 20px auto; padding: 10px 15px; border: 1px solid rgb(221, 221, 221); text-align: left; line-height: 26px;
+}
+.class-list a {
+	color: rgb(0, 100, 211);
+}
+.class-list th {
+	width: 70px; text-align: left;
+}
+.class-list .item {
+	background: rgb(244, 244, 243); padding: 2px 5px; margin-bottom: 5px;
+}
+.class-list .item a {
+	padding: 2px 2px 1px;
+}
+.class-list .item a.active {
+	background: rgb(119, 168, 45); color: rgb(255, 255, 255);
+}
+.img-play-box {
+	background: rgb(252, 252, 252); margin: 0px auto 20px; padding: 10px 0px; border: 1px solid rgb(221, 221, 221); width: 958px;
+}
+.gallery {
+	text-align: center;
+}
+.photos-info .content {
+	border: currentColor;
+}
+.photos-info h1 {
+	text-align: center;
+}
+.ad-thumb-list li {
+	height: 84px; margin-right: 5px; float: left;
+}
+.ad-thumb-list li img {
+	height: 80px;
+}
+.param-box {
+	padding: 15px;
+}
+.param-box p {
+	text-align: left; color: rgb(51, 51, 51); line-height: 28px; padding-top: 15px; font-size: 14px;
+}
+#contactform {
+	margin: 0px auto; width: 930px;
+}
+#contactform label {
+	text-align: left; color: rgb(127, 127, 127); line-height: 22px; font-weight: normal; display: block;
+}
+.percent-one-third {
+	margin: 0px 5px; width: 300px; float: left;
+}
+.column-last {
+	clear: right; margin-right: 0px !important;
+}
+textarea {
+	background: rgb(255, 255, 255); border: 1px solid rgb(221, 221, 221);
+}
+input {
+	background: rgb(255, 255, 255); border: 1px solid rgb(221, 221, 221);
+}
+.percent-one-third input {
+	background: rgb(247, 247, 247); padding: 3% 5%; width: 89%; height: 20px; line-height: 20px; margin-bottom: 10px;
+}
+.textarea {
+	margin: 0px auto; width: 920px; clear: both;
+}
+#contactform textarea {
+	background: rgb(247, 247, 247); padding: 2%; width: 95.5%; height: 130px; clear: both; margin-bottom: 5px;
+}
+#contactform .submit input {
+	background: rgb(68, 68, 68); margin: 0px 2px 20px 0px; padding: 7px 11px; border: 0px currentColor; color: rgb(255, 255, 255); line-height: 16px; clear: both; font-family: "Microsoft Yahei"; font-size: 14px; font-weight: normal; float: right; display: inline-block; position: relative; cursor: pointer;
+}

@@ -1,0 +1,72 @@
+body {
+	_background: url(about:_blank) fixed;
+}
+.m-client {
+	top: 200px; position: fixed; z-index: 999;
+}
+.m-client .client-title {
+	background: url("ttqq-ico.png") no-repeat center 10px; padding: 50px 0px 20px; width: 32px; text-align: center; font-family: "microsoft yahei"; font-size: 18px; float: left; display: inline-block; cursor: pointer;
+}
+.m-client .client-con {
+	padding: 6px 0px; width: 160px; height: auto; font-family: "microsoft yahei"; float: left; display: inline-block;
+}
+.m-client .client-qq {
+	background: rgb(255, 255, 255); margin: 4px auto; padding: 5px 0px; width: 140px;
+}
+.m-client .tel {
+	background: rgb(255, 255, 255); margin: 4px auto; padding: 5px 0px; width: 140px;
+}
+.m-client .erwei {
+	background: rgb(255, 255, 255); margin: 4px auto; padding: 5px 0px; width: 140px;
+}
+.m-client h2 {
+	padding: 5px 0px; text-align: center; color: rgb(51, 51, 51);
+}
+.m-client .qq-list {
+	margin: 0px auto; padding: 5px 0px; width: 130px; vertical-align: middle;
+}
+.m-client .qq-list i {
+	width: 27px; height: 30px; margin-right: 6px; vertical-align: middle; display: inline-block;
+}
+.m-client .qq-list i.i1 {
+	background: url("qq01.png") no-repeat;
+}
+.m-client .qq-list i.i2 {
+	background: url("qq02.png") no-repeat;
+}
+.m-client .qq-list i.i3 {
+	background: url("qq03.png") no-repeat;
+}
+.m-client .qq-list li {
+	width: 130px; height: 30px; text-align: center; line-height: 30px; margin-bottom: 3px;
+}
+.m-client .qq-list li::after {
+	height: 0px; clear: both; display: block; visibility: hidden; content: "";
+}
+.m-client .qq-list li a {
+	color: rgb(51, 51, 51); font-size: 14px; display: block;
+}
+.m-client .qq-list li a:hover {
+	color: rgb(204, 0, 0);
+}
+.m-client .erwei {
+	text-align: center; line-height: 16px;
+}
+.m-client .tel .telcn {
+	text-align: center; color: rgb(85, 85, 85); padding-bottom: 5px; font-size: 14px;
+}
+.leftclient .client-title {
+	border-top-right-radius: 4px; border-bottom-right-radius: 4px; -webkit-border-top-right-radius: 4px; -webkit-border-bottom-right-radius: 4px; -moz-border-top-right-radius: 4px; -moz-border-bottom-right-radius: 4px;
+}
+.rightclient .client-title {
+	border-top-left-radius: 4px; border-bottom-left-radius: 4px; -webkit-border-top-left-radius: 4px; -webkit-border-bottom-left-radius: 4px; -moz-border-top-left-radius: 4px; -moz-border-bottom-left-radius: 4px;
+}
+.m-client .client-title {
+	color: rgb(51, 51, 51);
+}
+.m-client .client-title {
+	background-color: rgb(255, 204, 0);
+}
+.m-client .client-con {
+	background-color: rgb(255, 204, 0);
+}

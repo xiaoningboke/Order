@@ -1,0 +1,28 @@
+#content{
+    width: 1162px;
+    height: 1000px;
+    background:red;
+    margin:0 auto;
+}
+img{
+    display: block;
+}
+
+    .Nav{ background:#C00; width: auto; height:40px;}
+    .Nav ul{margin-top:-2px;}
+    .Nav ul li{ float:left; list-style:none; margin-right:30px;}
+    .Nav ul li a{ text-decoration:none; font-size:16px; color:#FFF; font-family:"微软雅黑";}
+    .Nav ul li a:hover{color:#000; }
+
+
+
+
+#clorder{width:100%;max-width:1125px;background:#FFF;}
+
+.clwarp{border:5px solid #FF5000;}
+
+.cltitlea,.cltitleb{border-bottom:1px solid #FF5000;}
+
+.clrxian{border-right:1px solid #FF5000;}
+
+.clsubbox input{background:#FF5000;}
