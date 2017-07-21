@@ -180,13 +180,13 @@ for(i=0;i<22;i++){
 
 	quotes=new Array
 
-	quotes[1]='<p>您订购的 <font color="#090">恭恭恭恭恭恭恭恭恭恭恭 2盒</font>  已发货 请注意收货<font color="#FF0000">√</font></p>'
+	quotes[1]='<p>您订购的 <font color="#090">美国原装进口伟哥  体验装一盒装(30粒) 免运费 600 </font>  已发货 请注意收货<font color="#FF0000">√</font></p>'
 
-	quotes[2]='<p>您订购的 <font color="#090">喜喜喜喜喜喜喜喜喜喜喜 4盒</font>  已发货 请注意收货<font color="#FF0000">√</font></p> '
+	quotes[2]='<p>您订购的 <font color="#090">美国原装进口伟哥  疗效装二盒装(60粒) 免运费 1000</font>  已发货 请注意收货<font color="#FF0000">√</font></p> '
 
-	quotes[3]='<p>您订购的 <font color="#090">发发发发发发发发发发发 6盒 </font>  已发货 请注意收货<font color="#FF0000">√</font></p>'
+	quotes[3]='<p>您订购的 <font color="#090">美国原装进口伟哥  巩固装三盒装(90粒) 免运费 1300</font>  已发货 请注意收货<font color="#FF0000">√</font></p>'
 
-	quotes[4]='<p>您订购的 <font color="#090">财财财财财财财财财财财 8盒</font>  已发货 请注意收货<font color="#FF0000">√</font></p> '
+	quotes[4]='<p>您订购的 <font color="#090">美国原装进口伟哥  疗效装二盒装(60粒) 免运费 1000</font>  已发货 请注意收货<font color="#FF0000">√</font></p> '
 
 	var quote=quotes[rand1]
 

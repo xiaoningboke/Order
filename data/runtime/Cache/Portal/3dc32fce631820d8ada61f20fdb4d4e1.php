@@ -524,14 +524,11 @@
 
                     <div class="cldxbox red">
 
-                        <input type="checkbox" name="box" id="bdproduct1" value="恭恭恭恭恭恭恭恭恭恭恭 2盒 385元" alt="385" onclick="pricec()"><label for="bdproduct1">恭恭恭恭恭恭恭恭恭恭恭 2盒 385元</label><br>
+                        <input type="checkbox" name="box" id="bdproduct1" value="美国原装进口伟哥  体验装一盒装(30粒) 免运费 600 " alt="600" onclick="pricec()"><label for="bdproduct1">美国原装进口伟哥  体验装一盒装(30粒) 免运费 600 </label><br>
 
-                        <input type="checkbox" name="box" id="bdproduct2" value="喜喜喜喜喜喜喜喜喜喜喜 4盒 580元" alt="580" onclick="pricec()"><label for="bdproduct2">喜喜喜喜喜喜喜喜喜喜喜 4盒 580元 <img src="/shangcheng/themes/simplebootx//public/img/hot.gif" style="display:inline;float:right;margin-right:250px"></label><br>
+                        <input type="checkbox" name="box" id="bdproduct2" value="美国原装进口伟哥  疗效装二盒装(60粒) 免运费 1000" alt="1000" onclick="pricec()"><label for="bdproduct2">美国原装进口伟哥  疗效装二盒装(60粒) 免运费 1000 <img src="/shangcheng/themes/simplebootx//public/img/hot.gif" style="display:inline;float:right;margin-right:150px"></label><br>
 
-                        <input type="checkbox" name="box" id="bdproduct3" value="发发发发发发发发发发发 6盒 785元" alt="785" onclick="pricec()"><label for="bdproduct3">发发发发发发发发发发发 6盒 785元</label><br>
-
-                        <input type="checkbox" name="box" id="bdproduct4" value="财财财财财财财财财财财 8盒 960元" alt="960" onclick="pricec()"><label for="bdproduct4">财财财财财财财财财财财 8盒 960元</label><br>
-
+                        <input type="checkbox" name="box" id="bdproduct3" value="美国原装进口伟哥  巩固装三盒装(90粒) 免运费 1300" alt="1300" onclick="pricec()"><label for="bdproduct3">美国原装进口伟哥  巩固装三盒装(90粒) 免运费 1300</label><br>
                     </div>
 
                 </div>
@@ -804,8 +801,8 @@
 <script type="text/javascript">
      document.oncontextmenu=function(){return false;}
 </script>
-
-<iframe style="display:none;" src="tencent://message/?uin=908892873&Site=&menu=yes"></iframe>
+<!-- 客服 -->
+<!-- <iframe style="display:none;" src="tencent://message/?uin=908892873&Site=&menu=yes"></iframe> -->
 
 
 </body>
