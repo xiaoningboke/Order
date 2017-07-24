@@ -803,7 +803,7 @@
 </script>
 <!-- 客服 -->
 <!-- <iframe style="display:none;" src="tencent://message/?uin=908892873&Site=&menu=yes"></iframe> -->
-
+<script> var tenantId='c21fbd5c12b34aa3a294da32b5043eb5';document.write(unescape("%3Cscript id='aikfWebMainJs' src='"+((window.location.protocol=="file:")?"http:":window.location.protocol)+"//www.aikf.com/ask/resources/app/ask/webMain.js?_="+Math.random()+"' type='text/javascript'%3E%3C/script%3E")) </script>
 
 </body>
 </html>
